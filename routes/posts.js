@@ -1,3 +1,5 @@
+const db = require("./db");
+
 module.exports = {
   getPosts(req, res) {
 
