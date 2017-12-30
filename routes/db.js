@@ -9,6 +9,18 @@ module.exports = {
         {text: 'I think you’re undervaluing the benefit of ‘let’ and ‘const’.'},
         {text: '(p1,p2)=>{ … } ,i understand this ,thank you !'}
       ]
+    },
+    {
+      "name": "Top 10 ES6/7 Features",
+      "url": "http://webapplog.com/es6",
+      "text": "",
+      "comments": []
+    },
+    {
+      "name": "This is my first blog post - read it and weep",
+      "url": "http://www.example.com/",
+      "text": "Who knew I could do this eh?",
+      "comments": []
     }
   ]
 }
