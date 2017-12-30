@@ -7,4 +7,5 @@ module.exports = (baseUrl, app) => {
   app.put(baseUrl + "posts/:postId", posts.updatePost)
   app.delete(baseUrl + "posts/:postId", posts.removePost)
 
+  app.get(baseUrl + "posts/:postId/comments", comments.getComments)
 }
