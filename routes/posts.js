@@ -1,8 +1,8 @@
 const db = require("./db");
 
-module.exports = {
+const postRoutes = {
   getPosts(req, res) {
-
+    res.status(200).send(db.posts)
   },
   addPost(req, res) {
 
@@ -14,3 +14,5 @@ module.exports = {
 
   }
 }
+
+module.exports = postRoutes

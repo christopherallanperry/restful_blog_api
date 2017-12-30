@@ -1,6 +1,6 @@
 const db = require("./db");
 
-module.exports = {
+const commentRoutes = {
   getComments(req, res) {
 
   },
@@ -14,3 +14,5 @@ module.exports = {
 
   }
 }
+
+module.exports = commentRoutes
