@@ -8,4 +8,6 @@ module.exports = (baseUrl, app) => {
   app.delete(baseUrl + "posts/:postId", posts.removePost)
 
   app.get(baseUrl + "posts/:postId/comments", comments.getComments)
+  app.post(baseUrl + "posts/:postId/comments", comments.addComment)
+  app.put(baseUrl + "posts/:postId/comments", comments.updateComment)
 }
