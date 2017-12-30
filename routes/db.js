@@ -14,13 +14,28 @@ module.exports = {
       "name": "Top 10 ES6/7 Features",
       "url": "http://webapplog.com/es6",
       "text": "",
-      "comments": []
+      "comments": [
+        {text: 'He\'s just a poor boy'},
+        {text: 'from a poor family...'}
+      ]
     },
     {
       "name": "This is my first blog post - read it and weep",
       "url": "http://www.example.com/",
       "text": "Who knew I could do this eh?",
-      "comments": []
+      "comments": [
+        {text: 'More cheese, Grommit?'}
+      ]
+    },
+    {
+      "name": "Blog post 2",
+      "url": "http://www.example.com/",
+      "text": "This is another blog post",
+      "comments": [
+        {text: 'Needs more content, man...'},
+        {text: 'A fine axample of its kind’.'},
+        {text: 'Sorry, I fell asleep'}
+      ]
     }
   ]
 }
