@@ -9,5 +9,6 @@ module.exports = (baseUrl, app) => {
 
   app.get(baseUrl + "posts/:postId/comments", comments.getComments)
   app.post(baseUrl + "posts/:postId/comments", comments.addComment)
-  app.put(baseUrl + "posts/:postId/comments", comments.updateComment)
+  app.put(baseUrl + "posts/:postId/comments/:commentId", comments.updateComment)
+  app.delete(baseUrl + "posts/:postId/comments/:commentId", comments.removeComment)
 }
