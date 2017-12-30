@@ -5,6 +5,11 @@ const commentRoutes = {                       // GET request
     const post = db.posts[req.params.postId]; // Obtains the post ID
     res.status(200).send(post.comments);      // Displays the comments for that post ID
   },
+  showComment(req, res) {                     // GET request
+    const post = db.posts[req.params.postId]  // Obtains the post ID
+    const comment = post.comments[req.params.commentId] // Obtains the comment ID for specified post
+    res.status(200).send(comment)             // Issues a 200 (OK) status
+  },
   addComment(req, res) {                      // POST request
     const post = db.posts[req.params.postId]  // Obtains the post ID
     const newComment = req.body               // Obtains the content of the new comment from the request body

@@ -33,7 +33,7 @@ module.exports = {
       "text": "This is another blog post",
       "comments": [
         {text: 'Needs more content, man...'},
-        {text: 'A fine axample of its kind’.'},
+        {text: 'A fine example of its kind’.'},
         {text: 'Sorry, I fell asleep'}
       ]
     }
