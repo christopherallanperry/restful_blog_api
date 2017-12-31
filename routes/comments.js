@@ -1,4 +1,4 @@
-const db = require("./db");
+const db = require("../db/db");
 
 const commentRoutes = {                       // GET request
   getComments(req, res) {

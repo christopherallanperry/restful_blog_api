@@ -1,4 +1,4 @@
-module.exports = {
+let dataStore = {
   posts: [
     {
       name: 'Top 10 ES6 Features every Web Developer must know',
@@ -39,3 +39,5 @@ module.exports = {
     }
   ]
 }
+
+module.exports = dataStore
